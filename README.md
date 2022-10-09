@@ -33,5 +33,5 @@
 
 ### License
 
-[shaoshupai-trending-hot-search](https://github.com/hua1995116/shaoshupai-trending-hot-search)
+[shaoshupai-trending-hot-search](https://github.com/it985/shaoshupai-trending-hot-search)
 的源码使用 MIT License 发布。具体内容请查看 [LICENSE](./LICENSE) 文件。
