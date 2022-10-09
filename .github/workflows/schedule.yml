@@ -24,11 +24,11 @@ jobs:
 
       - name: code
         run: |
-          git config --local user.email "bot@github.com"
-          git config --local user.name "bot"
-          git remote set-url origin https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git config --local user.email "2071916845@qq.com"
+          git config --local user.name "it985"
+          git remote set-url origin https://${{ github.actor }}:${{ secrets.shaoshupai-trending-hot-search }}@github.com/${{ github.repository }}
           git pull origin master
           node mod.js
           git add .
-          git commit -m "update by github action"
+          git commit -m "update shaoshupai-trending-hot-search"
           git push origin master
