@@ -1,4 +1,4 @@
-name: hexo-oss-action
+name: shaoshupai-trending-hot-search-action
 
 on: [push] # 当有新 push 时触发
 
