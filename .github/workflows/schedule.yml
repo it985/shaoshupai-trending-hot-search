@@ -26,7 +26,7 @@ jobs:
         run: |
           git config --local user.email "2071916845@qq.com"
           git config --local user.name "it985"
-          git remote set-url origin https://${{ github.actor }}:${{ secrets.shaoshupai-trending-hot-search }}@github.com/${{ github.repository }}
+          git remote set-url origin https://${{ github.actor }}:${{ secrets.shaoshupaitrendinghotsearch }}@github.com/${{ github.repository }}
           git pull origin master
           node mod.js
           git add .
