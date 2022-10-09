@@ -24,6 +24,6 @@ jobs:
         startsWith(github.repository, 'it985') && 
         startsWith(github.ref, 'refs/tags/')
       env:
-        shaoshupai-trending-hot-search: ${{ secrets.shaoshupai-trending-hot-search }}
+        shaoshupaitrendinghotsearch: ${{ secrets.shaoshupaitrendinghotsearch }}
       with:
         draft: true
